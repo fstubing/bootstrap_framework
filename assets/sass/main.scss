@@ -1,0 +1,42 @@
+////paleta colores////
+
+$fondo-verde: #cad2c5 !default;
+$letra-titulos: #153448 !default;
+$letra-sub: #3c5b6f !default;
+$html-color: #e72929 !default;
+$css-color: #5356ff !default;
+$sass-color: #fb9ad1 !default;
+$bootstrap-color: #5e1675 !default;
+$git-color: #dc6b19 !default;
+$js-color: #f7c566 !default;
+$vue-color: #41b06e !default;
+$primary: $letra-titulos;
+$secondary: $letra-sub;
+$success: $fondo-verde;
+
+////colores iconos/////
+.iconos {
+  &__icon--rojo {
+    color: $html-color;
+  }
+  &__icon--celeste {
+    color: $css-color;
+  }
+  &__icon--rosa {
+    color: $sass-color;
+  }
+  &__icon--mora {
+    color: $bootstrap-color;
+  }
+  &__icon--naranja {
+    color: $git-color;
+  }
+  &__icon--amarillo {
+    color: $js-color;
+  }
+  &__icon--verde {
+    color: $vue-color;
+  }
+}
+
+@import "../../node_modules/bootstrap/scss/bootstrap";

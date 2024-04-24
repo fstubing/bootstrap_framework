@@ -1,0 +1,19 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --fuente-ppal: "Roboto", sans-serif;
+  --fuente-secundaria: "Jersey 25", sans-serif;
+}
+
+body {
+  font-family: var(--fuente-ppal);
+}
+
+.navbar-brand {
+  font-family: var(--fuente-secundaria);
+  font-size: 50px;
+}
